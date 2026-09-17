@@ -349,8 +349,12 @@ instructions.
   or update the exact reviewed reusable settings. Immediately before asking
   for confirmation, state that this saves template prefill only and does not
   create a campaign, add recipients, prepare drafts, schedule follow-ups, or
-  send email. Ask **Save this reusable template?** and treat template approval
-  as separate from campaign launch approval. Omit `templateId` and
+  send email. For an update that changes copy, also state before asking that
+  not-yet-launched draft campaigns built from this template will have their
+  planned emails regenerated, that manual edits to those planned emails will
+  be replaced, and that the number of attached drafts is not known until the
+  save completes. Ask **Save this reusable template?** and treat template
+  approval as separate from campaign launch approval. Omit `templateId` and
   `expectedUpdatedAt` for a new save. For an update, load the exact template
   first and pass both its private `templateId` and unchanged `updatedAt`. A
   `stale` or `name_conflict` result means no write occurred; load and review

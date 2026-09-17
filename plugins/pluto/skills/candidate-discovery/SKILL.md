@@ -199,8 +199,11 @@ user's required-versus-preferred wording: `required` gates membership,
   one stage, and relay the server's `notes` when the page is thin.
 - A current role combined with a past role ("GTM now, founder before") is one
   spec: put the current role in `titles` and the previous role in
-  `pastTitles`, adding `minYears` when the past role must have lasted.
-  Both compile natively into the same search.
+  `pastTitles`, adding `minYears` when the past role must have lasted. Both
+  go into the same search; the title pairing compiles natively everywhere,
+  while the `minYears` bound is native only where the source stores per-stint
+  tenure. Read the returned coverage per source, and let `verifyBudget` or
+  enrichment decide the bound where it is reported `undecidable`.
 - Exclusions ride the `exclude` block; named people ride `namedPeople`
   (names must come from the user's request — never invent one). "No
   freelancers", "no self-employed", "no contractors" is
