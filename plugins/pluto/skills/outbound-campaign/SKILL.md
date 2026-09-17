@@ -324,10 +324,12 @@ will be created** and say plainly: **This saves reusable template prefill only.
 It will not create a campaign, add recipients, prepare drafts, schedule
 follow-ups, or send email.** When the save UPDATES an existing template and
 changes its copy (subject, a body, a follow-up, a link variable the copy
-references, or the step count), add before asking: **Draft campaigns built
-from this template that have not launched will have their planned emails
-regenerated with the new copy; any manual edits to those planned emails will
-be replaced. Pluto cannot see how many drafts are attached until the save
+references, or the step count), add before asking: **Up to twenty eligible
+draft campaigns built from this template that have not launched will have
+their planned emails regenerated with the new copy; any manual edits to those
+planned emails will be replaced. Other attached drafts keep their previous
+copy until a further save or because they cannot be re-rendered, and Pluto
+cannot see how many drafts are attached or eligible until the save
 completes.** A cadence-, sender-, or guidance-only update does not regenerate
 copy and needs no such warning. End with **Save this reusable template?** and
 ask the user to reply `save template` or request changes. A bare “yes” counts
