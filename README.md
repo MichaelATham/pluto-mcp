@@ -138,6 +138,27 @@ a new Claude Code session afterward.
 To receive plugin guidance updates automatically, open `/plugin`, choose the
 **Marketplaces** tab, select **talentpluto**, and enable auto-update.
 
+## Polaris (Orbit members)
+
+The plugin also includes **polaris**, a second server for Orbit members. It
+works on your own Polaris thread, so you can catch up on what Polaris found,
+say yes or no to people with your reasons, refine searches, manage goals, and
+ask for intros from Claude or Codex. Everything you decide shows up in
+iMessage and on the dashboard, and your goals learn from it as if you had
+texted Polaris.
+
+You need the account whose verified phone you text Polaris from. During the
+beta, Polaris is available to the Orbit team only.
+
+- **Claude Code:** after installing the plugin, run `/mcp`, select
+  **polaris**, and sign in.
+- **Codex:** run `codex mcp login polaris`.
+- **Claude app:** add a custom connector with the URL
+  `https://app.talentpluto.com/api/mcp/orbit` and sign in.
+
+Try: "What's new from Polaris?", "Pass on the first three, too senior", or
+"Keep looking for this every week".
+
 ## Try it
 
 In Codex, mention `@pluto`. In Claude Code, say "Use Pluto" in your request.
