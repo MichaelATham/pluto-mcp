@@ -147,8 +147,15 @@ ask for intros from Claude or Codex. Everything you decide shows up in
 iMessage and on the dashboard, and your goals learn from it as if you had
 texted Polaris.
 
-You need the account whose verified phone you text Polaris from. During the
-beta, Polaris is available to the Orbit team only.
+Sign in with the phone you text Polaris from. New to Polaris? The sign-in
+window lets you join: it finds your profile, then you text Polaris a short
+code from your phone to start, the same way the website does. Polaris is open
+to the same people as the website.
+
+From Claude or Codex you can also tell Polaris about yourself (your agent
+shows you what it will share first), see what Polaris remembers, answer intro
+requests, update your profile and public page, import your LinkedIn
+connections, draft Gmail messages, and read your conversation with Polaris.
 
 - **Claude Code:** after installing the plugin, run `/mcp`, select
   **polaris**, and sign in.
@@ -156,8 +163,8 @@ beta, Polaris is available to the Orbit team only.
 - **Claude app:** add a custom connector with the URL
   `https://app.talentpluto.com/api/mcp/orbit` and sign in.
 
-Try: "What's new from Polaris?", "Pass on the first three, too senior", or
-"Keep looking for this every week".
+Try: "What's new from Polaris?", "Pass on the first three, too senior",
+"Keep looking for this every week", or "Tell Polaris about me".
 
 ## Try it
 
